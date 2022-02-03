@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="../css/todos.css">
+
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="../css/fontawesome.min.css">
+
+    <!-- fontawesome icons link -->
+    <link rel="stylesheet" href="../css/all.min.css">
+</head>
+<body>
+    
+    <div class="container">        
+        <div class="wrapper my-4">
+            <header class="text-center text-dark py-2">
+                <h2 class="mb-2 display-4">Todo List App</h2>
+            </header>
+            <form class="search">
+                <input type="text" class="form-control m-auto" name="search" placeholder="Search an activity">
+            </form>
+
+            <ul class="list-group todos mx-auto text-dark">
+                <li class="list-group-item d-flex justify-content-between align-items-center my-2">
+                    <label for="">Python</label>
+                    <i class="fa fa-trash mx-4 delete" aria-hidden="true"></i>                     
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center my-2">
+                    <label for="">Accounting</label>
+                    <i class="fa fa-trash mx-4 delete" aria-hidden="true"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center my-2">
+                    <label for="">React</label>
+                    <i class="fa fa-trash mx-4 delete" aria-hidden="true"></i>
+                </li>
+            </ul>
+
+            <form class="add my-4 text-center">
+                <label class="text-dark">Add a new Todo...</label>
+                <input type="text" class="form-control m-auto" name="add">
+            </form>
+
+        </div>
+    </div>
+
+    <!-- custom js link -->
+    <script src="../js/todos.js"></script>
+</body>
+</html>

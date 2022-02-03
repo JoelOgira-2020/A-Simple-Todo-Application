@@ -1,0 +1,47 @@
+body{
+height: 100%;
+background: radial-gradient(yellow, cadetblue)!important;
+}
+
+.wrapper {
+    width: 500px;
+    border: 8px solid grey;
+    margin: 100px auto !important;
+    border-radius: 15px;
+    background: yellowgreen;
+}
+
+header {
+    background: linear-gradient(white, grey);
+    border-radius: 7.5px 7.5px 0 0;
+}
+
+h2 {
+    text-decoration: underline dotted;
+}
+
+input[type="checkbox"]{
+    position: relative;
+    top: 2px;
+    float: right;
+}
+
+input[type=text], 
+input[type=text]:focus {
+    color: white;
+    border: none;
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.todos .li {
+    background: radial-gradient(white, grey);
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.filtered {
+    display: none !important;
+}
